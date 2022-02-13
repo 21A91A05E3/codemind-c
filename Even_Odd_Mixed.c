@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+    int n,d,dc=0,temp,ec=0,oc=0;
+    scanf("%d",&n);
+    temp=n;
+    while(n)
+    {
+        d=n%10;
+        n=n/10;
+        dc++;
+    }
+    n=temp;
+    while(n)
+    {
+        d=n%10;
+        n=n/10;
+        if(d%2==0)
+        {
+            ec=ec+1;
+        }
+        else
+        {
+            oc=oc+1;
+        }
+    }
+    if(ec==dc)
+    {
+        printf("Even");
+    }
+    else if(oc==dc)
+    {
+        printf("Odd");
+    }
+    else
+    {
+        printf("Mixed");
+    }
+}
