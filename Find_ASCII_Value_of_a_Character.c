@@ -9,6 +9,6 @@ int main()
     n=strlen(str);
     for(i=0;i<n;i++)
     {
-        printf("%d",str[i]);
+        printf("%d ",str[i]);
     }
 }
