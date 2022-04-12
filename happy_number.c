@@ -9,7 +9,7 @@ int main()
         while(n>0)
         {
             d=n%10;
-            s=s+(d*d);
+            s=s+d*d;
             n=n/10;
         }
         n=s;
