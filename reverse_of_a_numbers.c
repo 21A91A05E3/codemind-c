@@ -6,9 +6,9 @@ int main()
     while(n)
     {
         d=n%10;
-        n=n/10;
         r=(r*10)+d;
+        n=n/10;
     }
     printf("%d",r);
-    
+    return 0;
 }
