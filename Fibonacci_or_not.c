@@ -24,5 +24,4 @@ int main()
     {
         printf("False");
     }
-    
 }
