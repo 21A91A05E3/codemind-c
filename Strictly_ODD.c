@@ -27,12 +27,10 @@ int main()
 	if(eic==edc)
 	{
 		printf("True");
-		
 	}
 	else
 	{
 		printf("False");
-		
 	}		
 }
 
