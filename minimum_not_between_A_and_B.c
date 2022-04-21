@@ -1,33 +1,30 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,x[100],a,b,min=100;
+    int n,ar[100],i,a,b,c=0,m=9999;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        scanf("%d",&x[i]);
+        scanf("%d",&ar[i]);
     }
     scanf("%d%d",&a,&b);
     for(i=0;i<n;i++)
     {
-        if(x[i]>=a && x[i]<=b)
+        if(ar[i]<a || ar[i]>b)
         {
-            continue;
-        }
-        else
-        {
-            if(min>x[i])
+            if(ar[i]<=m)
             {
-                min=x[i];
+                c++;
+                m=ar[i];
             }
         }
     }
-    if(min==100)
+    if(c==0)
     {
         printf("-1");
     }
     else
     {
-        printf("%d",min);
+        printf("%d",m);
     }
 }
