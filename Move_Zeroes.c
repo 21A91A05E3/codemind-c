@@ -14,7 +14,6 @@ int main()
             a[j]=a[i];
             j++;
         }
-
     }
     for(i=j;i<n;i++)
     {
