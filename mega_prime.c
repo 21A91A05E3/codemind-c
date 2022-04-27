@@ -5,13 +5,10 @@ int prime(int n)
     for(i=1;i<=n;i++)
     {
         if(n%i==0)
-        {
-            c++;
-        }
+         c++;
     }
     return c;
 }
-
 int main()
 {
     int n,d,p,dc=0,dp,s=0;
@@ -45,5 +42,4 @@ int main()
     {
         printf("Not Mega Prime");
     }
-
 }
