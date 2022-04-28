@@ -1,8 +1,8 @@
 #include<stdio.h>
 int s(int n)
 {
-    int i,d,dc=0,temp,c=0;
-    temp=n;
+    int i,d,y=0,x,c=0;
+    x=n;
     while(n>0)
     {
         d=n%10;
@@ -10,14 +10,14 @@ int s(int n)
         {
             return 0;
         }
-        else if(temp%d==0)
+        else if(x%d==0)
         {
             c++;
         }
-        dc++;
+        y++;
         n=n/10;
     }
-    if(dc==c)
+    if(y==c)
     {
         return 1;
     }
