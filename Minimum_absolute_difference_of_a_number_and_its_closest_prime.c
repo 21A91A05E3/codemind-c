@@ -2,18 +2,19 @@
 #include<math.h>
 int main()
 {
-    int m=0,i,d,n,c=0,j,a[1000],b[1000],p,k=0;
-    
+    int m=0,i,d,n,t,c=2,j,a[1000],b[1000],p,k=0;
         k=0;
         m=0;
         scanf("%d",&n);
         for(i=0;i<n+100;i++)
         {
-            c=0;
-            for(j=1;j<=i;j++)
+            c=2;
+            for(j=2;j<i;j++)
             {
                 if(i%j==0)
+                {
                     c++;
+                }
             }
             if(c==2)
             {
@@ -29,7 +30,8 @@ int main()
             if(d>a[i])
             {
                 d=a[i];
+
             }
         }
-    printf("%d",d);
+        printf("%d",d);
 }
