@@ -30,7 +30,7 @@ int main()
             if(d>a[i])
             {
                 d=a[i];
-
+                p=b[i];
             }
         }
         printf("%d",d);
