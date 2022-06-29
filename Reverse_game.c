@@ -16,7 +16,6 @@ int main()
             a[i]=a[i]/10;
         }
         printf("%d ",r[i]);
-   
     }
-   
 }
+ 
