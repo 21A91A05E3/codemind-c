@@ -6,3 +6,4 @@ int main()
     i=(p*t*r)/100;
     printf("%d",i);
 }
+ 
