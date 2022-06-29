@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main()
 {
@@ -17,5 +18,5 @@ int main()
             s=s+a[i][j];
         }
     }
-    printf("%d",s);
+    printf("%d ",s);
 }
