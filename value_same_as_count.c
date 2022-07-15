@@ -22,7 +22,6 @@ int main()
         {
             tc++;
         }
-        
     }
     printf("%d",tc);
 }
