@@ -23,11 +23,9 @@ int main()
             tc++;
             printf("%d ",a[i]);
         }
-        
     }
     if(tc==0)
     {
         printf("-1");
     }
-
 }
